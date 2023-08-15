@@ -1,0 +1,84 @@
+body {
+  background: #f0f2f5;
+  font-family: Helvetica, Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.imagen {
+  margin: -20px;
+  margin-bottom: 1px;
+}
+
+.letra {
+  font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+  font-size: 28px;
+  font-weight: normal;
+  line-height: 32px;
+  width: 500px;
+}
+
+.caja {
+  background-color: #fff;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+  box-sizing: border-box;
+  margin: 40px 0 0;
+  padding: 13px;
+  width: 396px;
+}
+
+.botonLogin {
+  margin-top: 15px;
+  background-color: #1877f2;
+  color: #fff;
+  font-weight: bold;
+}
+
+.forgot {
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 20px;
+}
+
+.textForgot {
+  text-decoration: none;
+  color: #1877f2;
+}
+
+.create {
+  border: none;
+  border-radius: 6px;
+  font-size: 17px;
+  line-height: 48px;
+  padding: 0 16px;
+  background-color: #42b72a;
+  font-weight: bold;
+  color: #fff;
+}
+
+.ayuda {
+  font-size: 14px;
+}
+
+.createPage {
+  text-decoration: none;
+  font-weight: bold;
+  color: black;
+}
+
+.tercera {
+  display: flex;
+  justify-content: center;
+}
+
+.cajaCreate {
+  transform: translateY(30px);
+}
+
+@media screen and (max-with: 410px) {
+  body {
+    background: black;
+  }
+}
